@@ -37,8 +37,8 @@ export const getMenu = () => {
 	}
 
 	return /*html*/`
-	<nav class="menu">
-		<ul>
+	<nav>
+		<ul  class="menu menu-horizontal bg-base-20 gap-1">
 			${pageNames.map(pageName => `<li><a href="${getPageIdCode(pageName)}"${getMenuClass(pageName)}>${pageName}</a></li>`).join('')}
 		</ul>
 	</nav>
