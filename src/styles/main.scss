@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;			
 
-.ok {
-	&:hover {
-		color: red !important;
+@layer components {
+	h2.tempHeader {
+		@apply text-3xl text-red-500 mt-[2rem] mb-4 bg-black p-2
+	}
+	a.tempLink {
+		@apply underline text-2xl;
 	}
 }
