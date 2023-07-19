@@ -6,11 +6,29 @@ export const PageInfo = () => {
 	<p>TODO: experiment with and select the best of these, converting them to Vite-Vanilla components with functionality.</p>
 
 
+<h2 class="tempHeader">DaisyUI Card</h2>
+
+<div class="card card-compact w-80 border-gray-600 border-b bg-base-100 shadow-xl">
+  <figure><img src="https://images.unsplash.com/photo-1689702095123-a20606125fd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1586&q=80" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+
 <h2 class="tempHeader">DaisyUI Alert</h2>
 
 <div class="alert alert-warning">
   <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
   <span>Warning: Invalid email address!</span>
+</div>
+
+<div class="alert alert-success mt-3">
+  <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+  <span>Your purchase has been confirmed!</span>
 </div>
 
 <h2 class="tempHeader">DaisyUI Avatar</h2>
@@ -365,7 +383,7 @@ export const PageInfo = () => {
 
 <h2 class="tempHeader">Flowbite Paragraph</h2>
 
-<p class="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-600 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">Work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
+<p class="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-600 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">Across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
 <p class="text-gray-500 dark:text-gray-400">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease, with a complete audit trail for every change.</p>
 
 <h2 class="tempHeader">Flowbite Image-grayscale</h2>
